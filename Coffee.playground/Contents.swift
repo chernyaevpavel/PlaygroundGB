@@ -7,7 +7,7 @@ protocol Coffee {
 
 class SimpleCoffe: Coffee {
     let cost: Int
-    let description: String = "Коффе"
+    let description: String = "Кофе"
     
     init(cost: Int) {
         self.cost = cost
